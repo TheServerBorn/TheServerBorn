@@ -15,15 +15,29 @@ I am an **IT Support Specialist** by day and a **Retro-Wasteland Engineer** by n
 
 ---
 
-## 🕹️ Active Project: The J29 Terminal Engine (v0.15 Beta)
-The **[J29 Terminal Engine](https://github.com/TheServerBorn/J29-Terminal-Engine)** is a decoupled, Python-based retro-computing frontend built for the 3D-printed [Raspberry Pi Retro Computer](https://thingiverse.com) enclosure by *lowbudgettech*.
+## 🕹️ Active Project: The J29 Terminal Engine (v0.15 Development)
 
-### 💻 Current Capabilities & OS Features:
+The [**J29 Terminal Engine**](https://github.com/TheServerBorn/J29-Terminal-Engine) is an open-source, Python-based retro-computing frontend engine originally created for the 3D-printed [**Raspberry Pi Retro Computer**](https://www.thingiverse.com/thing:3478048) enclosure by *lowbudgettech*.
 
-* **Decoupled Architecture**: Engine logic is entirely separate from the front-end Shell, allowing anyone to build and plug in custom UI layouts.
-* **Immersive Simulation**: Features an animated `Callisto Computer Systems` boot sequence, custom game launching, and interactive terminal controls.
-* **Hardware & Security Diagnostics**: Live system tracking (CPU, Memory, Storage) alongside custom maintenance/security scanning sequences.
-* **Tactile Media**: Format-agnostic detection that loads digital games directly via physical SD cards, USB drives, or floppy disks.
+### 💻 Current Capabilities
+
+- **Modular Architecture**: Core Engine functionality is separated from the Terminal Shell, laying the groundwork for alternate interfaces and community-created shells.
+- **Configurable Machine Identity**: Manufacturer, system name, model, version, and unit ID can be changed without modifying Python source code.
+- **Immersive Terminal Interface**: Animated boot sequence, fullscreen operation, CRT-style scanlines, keyboard navigation, and configurable terminal branding.
+- **Live Hardware Information**: Displays real CPU, memory, operating system, storage capacity, and free-space information.
+- **Game Library & Launching**: Loads a configurable software library and launches external programs through the shared Engine interface.
+- **Config-Driven Operation**: Machine identity, game library data, fullscreen behavior, boot behavior, and development keys are being moved into external configuration.
+
+### 🔧 Planned Features
+
+- Physical game media using floppy disks, SD cards, USB drives, SSDs, and other removable storage
+- Steam and emulator integration
+- Themes and custom audio
+- Maintenance environment
+- First-run configuration
+- Alternate Shells
+- Favorites, recent games, and metadata
+- Auxiliary OLED display support
 
 
 ---

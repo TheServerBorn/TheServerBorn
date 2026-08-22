@@ -7,6 +7,7 @@ I am an **IT Support Specialist** by day and a **Retro-Wasteland Engineer** by n
 ---
 
 ## 🛡️ Professional Credentials
+
 * 🛠️ **CompTIA A+** | Systems & Support
 * 🌐 **CompTIA Network+** | Infrastructure & Protocols
 * 🔒 **CompTIA Security+** | Core Security Architecture
@@ -18,14 +19,17 @@ I am an **IT Support Specialist** by day and a **Retro-Wasteland Engineer** by n
 The **[J29 Terminal Engine](https://github.com/TheServerBorn/J29-Terminal-Engine)** is a decoupled, Python-based retro-computing frontend built for the 3D-printed [Raspberry Pi Retro Computer](https://thingiverse.com) enclosure by *lowbudgettech*.
 
 ### 💻 Current Capabilities & OS Features:
+
 * **Decoupled Architecture**: Engine logic is entirely separate from the front-end Shell, allowing anyone to build and plug in custom UI layouts.
 * **Immersive Simulation**: Features an animated `Callisto Computer Systems` boot sequence, custom game launching, and interactive terminal controls.
 * **Hardware & Security Diagnostics**: Live system tracking (CPU, Memory, Storage) alongside custom maintenance/security scanning sequences.
 * **Tactile Media**: Format-agnostic detection that loads digital games directly via physical SD cards, USB drives, or floppy disks.
 
+
 ---
 
 ## 🖥️ The Homelab Workshop
+
 When I am not coding in Python, I manage localized physical and virtual infrastructure:
 * **Active Directory Testing**: Building full domain environments to test group policies, network pivots, and administrative controls.
 * **SOC Simulations**: Provisioning multiple VMs to simulate corporate networks, capture malicious traffic, and test defensive workflows.
@@ -34,4 +38,5 @@ When I am not coding in Python, I manage localized physical and virtual infrastr
 ---
 
 ## 🤝 Let's Build Something
+
 I am all about open-source collaboration and community inspiration. If you want to build a custom shell for the J29 engine, chat about homelabs, or talk security, feel free to explore my repos or open an issue!

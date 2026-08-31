@@ -1,56 +1,96 @@
-# 📟 [TheServerBorn] // System Initialized...
+# 📟 TheServerBorn // System Initialized...
 
 > **"Hey you, you're finally awake..." Welcome to the Terminal.**
 
-I am an **IT Support Specialist** by day and a **Retro-Wasteland Engineer** by night. I hold a comprehensive CompTIA defense stack (**A+, Net+, Sec+, CySA+**) and apply enterprise-level infrastructure and security concepts directly to my software, virtualization, and hardware hobbies.
+I am an **IT Support Specialist** by day and a **Retro-Wasteland Engineer** by night. I hold the CompTIA **A+, Network+, Security+, and CySA+** certifications and spend my free time building software, homelab infrastructure, retro-inspired hardware, and systems that probably have more personality than they strictly need.
 
 ---
 
 ## 🛡️ Professional Credentials
 
-* 🛠️ **CompTIA A+** | Systems & Support
-* 🌐 **CompTIA Network+** | Infrastructure & Protocols
-* 🔒 **CompTIA Security+** | Core Security Architecture
-* 🎯 **CompTIA CySA+** | Cybersecurity Analyst & Incident Response
+- 🛠️ **CompTIA A+** | Systems & Support
+- 🌐 **CompTIA Network+** | Infrastructure & Protocols
+- 🔒 **CompTIA Security+** | Core Security Architecture
+- 🎯 **CompTIA CySA+** | Cybersecurity Analysis & Incident Response
 
 ---
 
-## 🕹️ Active Project: The J29 Terminal Engine (v0.20 Development)
+## 🕹️ Active Project: J-29 Interface Engine — v0.27
 
-The [**J29 Terminal Engine**](https://github.com/TheServerBorn/J29-Terminal-Engine) is an open-source, Python-based retro-computing frontend engine originally created for the 3D-printed [**Raspberry Pi Retro Computer**](https://www.thingiverse.com/thing:3478048) enclosure by *lowbudgettech*.
+The **J-29 Interface Engine** is an open-source, Python-based interface and game-launching engine built around a simple idea:
+
+**Modern hardware. Retro experience.**
+
+What began as a terminal-style launcher for a custom retro-computer build has evolved into a modular interface engine capable of presenting local games, Steam titles, emulated software, and physical media through a unified fictional-computer experience.
+
+The original **J-29 Terminal** remains the reference shell, while the underlying Engine is being designed to support alternate shells, themes, hardware builds, and community-created interfaces.
 
 ### 💻 Current Capabilities
 
-- **Modular Architecture**: Core Engine functionality is separated from the Terminal Shell, laying the groundwork for alternate interfaces and community-created shells.
-- **Configurable Machine Identity**: Manufacturer, system name, model, version, and unit ID can be changed without modifying Python source code.
-- **Immersive Terminal Interface**: Animated boot sequence, fullscreen operation, CRT-style scanlines, keyboard navigation, and configurable terminal branding.
-- **Live Hardware Information**: Displays real CPU, memory, operating system, storage capacity, and free-space information.
-- **Game Library & Launching**: Loads a configurable software library and launches external programs through the shared Engine interface.
-- **Config-Driven Operation**: Machine identity, game library data, fullscreen behavior, boot behavior, and development keys are being moved into external configuration.
+- **Modular Engine + Shell Architecture**  
+  Core functionality is separated from the user interface, allowing multiple shells to share the same game library, metadata, launch systems, and configuration.
 
-### 🔧 Planned Features
+- **J-29 Terminal Shell**  
+  Fullscreen retro-terminal interface with animated startup, CRT-style presentation, keyboard navigation, command support, contextual controls, and configurable machine identity.
 
-- Physical game media using floppy disks, SD cards, USB drives, SSDs, and other removable storage
-- Steam and emulator integration
-- Themes and custom audio
-- Maintenance environment
-- First-run configuration
-- Alternate Shells
-- Favorites, recent games, and metadata
-- Auxiliary OLED display support
+- **Unified Game Library**  
+  Local programs, automatically discovered ROMs, and installed Steam games appear through the same J-29 library system.
 
+- **Game Metadata**  
+  Titles can carry platform, year, genre, developer, publisher, launch type, emulator, Steam ID, favorite state, and other metadata.
 
----
+- **Favorites & Recent Games**  
+  Persistent favorites and recently launched software are integrated directly into the interface.
 
-## 🖥️ The Homelab Workshop
+- **Steam Integration**  
+  J-29 automatically discovers installed Steam libraries and titles and launches them through the same interface used for other software.
 
-When I am not coding in Python, I manage localized physical and virtual infrastructure:
-* **Active Directory Testing**: Building full domain environments to test group policies, network pivots, and administrative controls.
-* **SOC Simulations**: Provisioning multiple VMs to simulate corporate networks, capture malicious traffic, and test defensive workflows.
-* **Hardware Reclamation (Jellyfin)**: Rescued a retired corporate HP EliteDesk workstation from becoming e-waste. Repurposed it into a dedicated home media server running Jellyfin to host my movies and TV shows.
+- **Automatic ROM Discovery**  
+  Configured ROM libraries are scanned automatically and organized by platform.
 
----
+- **Emulator Integration**  
+  J-29 can automatically route supported ROMs through configured emulator profiles, including RetroArch core selection and support for standalone emulators.
 
-## 🤝 Let's Build Something
+- **Physical Media Detection**  
+  J-29 detects supported removable media including SD cards, USB storage, external drives, and other mounted media.
 
-I am all about open-source collaboration and community inspiration. If you want to build a custom shell for the J29 engine, chat about homelabs, or talk security, feel free to explore my repos or open an issue!
+- **Physical Launch Keys**  
+  Physical media does not need to contain the actual game. A tiny metadata file can represent an installed ROM or Steam title and launch it through J-29.
+
+- **Self-Contained Game Media**  
+  Physical media can alternatively contain both J-29 metadata and the actual software payload.
+
+- **Physical Media Collections**  
+  A single physical disk or card can represent an entire collection of games. Insert the media, open the collection, and launch multiple titles through the J-29 interface.
+
+- **Dynamic Physical Media Interface**  
+  Recognized media automatically appears in the main menu while mounted, including media already present when J-29 starts.
+
+- **Cross-Platform Architecture**  
+  Windows is the initial release target, while engine components are being written with Linux and macOS compatibility in mind.
+
+### 💾 Physical Media Philosophy
+
+One of J-29's defining features is treating physical media as an **interface**, rather than merely a storage device.
+
+A floppy disk, SD card, USB drive, or other removable medium can represent software that actually lives somewhere else on the system.
+
+For example:
+
+```text
+INSERT PHYSICAL MEDIA
+        │
+        ▼
+   J-29 DETECTS IT
+        │
+        ▼
+    HARVEST MOON
+        │
+        ▼
+    LOAD GAME? [Y/N]
+        │
+        ▼
+J-29 RESOLVES LIBRARY ENTRY
+        │
+        ▼
+ROM / STEAM / LOCAL SOFTWARE

@@ -94,3 +94,57 @@ J-29 RESOLVES LIBRARY ENTRY
         │
         ▼
 ROM / STEAM / LOCAL SOFTWARE
+```
+
+The physical object becomes the interaction.
+
+> **J-29 physical media represents software. It does not require the software to physically reside on that media.**
+
+---
+
+## 🚧 What's Next?
+
+With **v0.27 Physical Media Metadata & Collections** complete, development continues toward the remaining v1.0 experience.
+
+Planned work includes:
+
+- Custom audio and interface sounds
+- Settings Editor
+- First-run setup wizard
+- Maintenance environment
+- Additional interface customization
+- Alternate Shell support
+- Final integration and usability polish
+- Cross-platform regression testing
+- v1.0 release candidate
+
+The goal is not simply to build another launcher.
+
+The goal is to make modern game libraries feel like they belong to a dedicated computer again.
+
+---
+
+## 🖥️ The Homelab Workshop
+
+When I am not working on J-29, I experiment with physical and virtual infrastructure:
+
+- **Active Directory Testing** — Building domain environments for Group Policy, networking, administration, and troubleshooting practice.
+- **SOC Simulations** — Running virtualized environments for defensive security testing, traffic analysis, and incident-response practice.
+- **Hardware Reclamation** — Giving retired enterprise hardware another life through servers, retro-computing projects, lab systems, and other experiments.
+- **Self-Hosted Services** — Maintaining home infrastructure including a dedicated Jellyfin media server.
+
+---
+
+## 🤝 Let's Build Something
+
+J-29 is being developed as an open-source project, and its modular architecture is intended to eventually make experimentation part of the fun.
+
+Want to build a custom shell?
+
+Have an absurd idea involving a floppy disk and a modern Steam game?
+
+Interested in retro computing, homelabs, hardware reclamation, or defensive security?
+
+Explore the repositories, open an issue, or follow along as J-29 works its way toward v1.0.
+
+**Modern hardware. Retro experience.**

@@ -84,7 +84,7 @@ The physical object becomes the interaction.
 
 With v0.29, J-29 can also **create that media from inside the interface**.
 
-Users select software from the existing library, choose a removable device, and J-29 generates the required metadata automatically.
+Users select software from the existing library, choose a removable device, and J-29 generates and verifies the required metadata automatically.
 
 No manual game-ID lookup required.
 
@@ -92,7 +92,7 @@ No manual game-ID lookup required.
 
 ## 🔊 Callisto Audio Identity
 
-J-29 also includes a configurable semantic audio system.
+J-29 includes a configurable semantic audio system.
 
 The current Callisto reference sound set uses:
 
@@ -111,22 +111,25 @@ The goal is to make the **machine itself feel alive**.
 
 ## 🚧 Road to v1.0
 
-The project is being built in small, stable milestones rather than through one giant rewrite.
+Development is moving through small, stable milestones:
 
-Current direction includes:
+| Version | Milestone | Status |
+|---|---|---|
+| v0.29.0 | Physical Media Creator | ✅ Complete |
+| v0.30 | OLED / Auxiliary Display Support | 🚧 Current |
+| v0.31 | Guided First-Launch Setup | ⏳ Planned |
+| v0.32 | Maintenance Terminal | ⏳ Planned |
+| v0.33 | Appliance Mode | ⏳ Planned |
+| v0.34 | Boot Maintenance Console | ⏳ Planned |
+| v0.35 | Deployment Build | ⏳ Planned |
+| v0.36–v0.99 | Stabilization | ⏳ Planned |
+| v1.0 | Initial Public Release | 🎯 Target |
 
-- OLED / auxiliary display support
-- Maintenance environment
-- Appliance-style operation
-- Boot maintenance console
-- Packaged Windows deployment
-- First-run configuration
-- Guided Windows host integration
-- Additional interface customization
-- Final regression and usability polish
-- v1.0 release preparation
+The v1.0 architecture is also intended to prove that J-29 is an **Interface Engine**, not simply one hard-coded terminal application. The J-29 Terminal remains the reference shell, while a second distinct interface will use the same shared Engine and library state.
 
 > **Big vision. Small versions. Stable checkpoints. No chaos.**
+
+See the full [Development Roadmap](https://github.com/TheServerBorn/J-29-Interface-Engine/blob/main/ROADMAP.md).
 
 ---
 
@@ -193,3 +196,4 @@ Explore the repositories, open an issue, or follow along as J-29 works its way t
 ---
 
 **Modern hardware. Retro experience.**
+

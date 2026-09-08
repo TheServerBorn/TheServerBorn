@@ -2,80 +2,62 @@
 
 > **"Hey you, you're finally awake..." Welcome to the Terminal.**
 
-I am an **IT Support Specialist** by day and a **Retro-Wasteland Engineer** by night. I hold the CompTIA **A+, Network+, Security+, and CySA+** certifications and spend my free time building software, homelab infrastructure, retro-inspired hardware, and systems that probably have more personality than they strictly need.
+I'm an **IT Support Specialist** by day and a builder of retro-inspired software, homelab infrastructure, custom hardware, and strange little computer systems by night.
+
+I hold the CompTIA **A+**, **Network+**, **Security+**, and **CySA+** certifications, and most of my personal work lives somewhere between practical IT, defensive security, retro computing, and:
+
+> **"What if this modern machine felt like it came from another timeline?"**
 
 ---
 
 ## 🛡️ Professional Credentials
 
-- 🛠️ **CompTIA A+** | Systems & Support
-- 🌐 **CompTIA Network+** | Infrastructure & Protocols
-- 🔒 **CompTIA Security+** | Core Security Architecture
-- 🎯 **CompTIA CySA+** | Cybersecurity Analysis & Incident Response
+- 🛠️ **CompTIA A+** — Systems & Support
+- 🌐 **CompTIA Network+** — Infrastructure & Protocols
+- 🔒 **CompTIA Security+** — Core Security Architecture
+- 🎯 **CompTIA CySA+** — Cybersecurity Analysis & Incident Response
 
 ---
 
-## 🕹️ Active Project: J-29 Interface Engine — v0.27
+## 🕹️ Active Project: J-29 Interface Engine
 
-The **J-29 Interface Engine** is an open-source, Python-based interface and game-launching engine built around a simple idea:
+**Latest completed milestone:** `v0.29.0 — Physical Media Creator`  
+**Current development:** `v0.30 — OLED / Auxiliary Display Support`
 
-**Modern hardware. Retro experience.**
+[J-29 Interface Engine](https://github.com/TheServerBorn/J-29-Interface-Engine) is an open-source, Python-based retro-computing interface and game-launching engine built around one simple idea:
 
-What began as a terminal-style launcher for a custom retro-computer build has evolved into a modular interface engine capable of presenting local games, Steam titles, emulated software, and physical media through a unified fictional-computer experience.
+> **Modern hardware. Retro experience.**
 
-The original **J-29 Terminal** remains the reference shell, while the underlying Engine is being designed to support alternate shells, themes, hardware builds, and community-created interfaces.
+It began as a terminal-style launcher for a custom fictional computer build and has grown into a modular **Engine + Shell** platform for presenting modern software through a dedicated retro-computer experience.
 
-### 💻 Current Capabilities
+The original **J-29 Terminal** remains the reference shell, while the underlying Engine is being built so alternate shells, themes, machine identities, and custom hardware projects can eventually use the same shared systems.
 
-- **Modular Engine + Shell Architecture**  
-  Core functionality is separated from the user interface, allowing multiple shells to share the same game library, metadata, launch systems, and configuration.
+### Current Highlights
 
-- **J-29 Terminal Shell**  
-  Fullscreen retro-terminal interface with animated startup, CRT-style presentation, keyboard navigation, command support, contextual controls, and configurable machine identity.
+- **Modular Engine + Shell architecture**
+- **Unified game library** for local software, Steam, ROMs, and emulators
+- **Favorites and Recently Played**
+- **Automatic Steam library discovery**
+- **ROM discovery and emulator profiles**
+- **Physical-media detection**
+- **Metadata-only physical launch keys**
+- **Self-contained physical game media**
+- **Multi-game physical collections**
+- **Built-in Physical Media Creator**
+- **Safe removable-media writing and verification**
+- **Intentional media reuse / replacement with rollback protection**
+- **Configurable machine identity**
+- **Theme-owned custom audio**
+- **Callisto industrial terminal reference sound identity**
+- **Cross-platform-minded architecture**, with Windows as the initial target
 
-- **Unified Game Library**  
-  Local programs, automatically discovered ROMs, and installed Steam games appear through the same J-29 library system.
+---
 
-- **Game Metadata**  
-  Titles can carry platform, year, genre, developer, publisher, launch type, emulator, Steam ID, favorite state, and other metadata.
+## 💾 Physical Media Philosophy
 
-- **Favorites & Recent Games**  
-  Persistent favorites and recently launched software are integrated directly into the interface.
+One of J-29's defining ideas is that physical media can be an **interface**, not just storage.
 
-- **Steam Integration**  
-  J-29 automatically discovers installed Steam libraries and titles and launches them through the same interface used for other software.
-
-- **Automatic ROM Discovery**  
-  Configured ROM libraries are scanned automatically and organized by platform.
-
-- **Emulator Integration**  
-  J-29 can automatically route supported ROMs through configured emulator profiles, including RetroArch core selection and support for standalone emulators.
-
-- **Physical Media Detection**  
-  J-29 detects supported removable media including SD cards, USB storage, external drives, and other mounted media.
-
-- **Physical Launch Keys**  
-  Physical media does not need to contain the actual game. A tiny metadata file can represent an installed ROM or Steam title and launch it through J-29.
-
-- **Self-Contained Game Media**  
-  Physical media can alternatively contain both J-29 metadata and the actual software payload.
-
-- **Physical Media Collections**  
-  A single physical disk or card can represent an entire collection of games. Insert the media, open the collection, and launch multiple titles through the J-29 interface.
-
-- **Dynamic Physical Media Interface**  
-  Recognized media automatically appears in the main menu while mounted, including media already present when J-29 starts.
-
-- **Cross-Platform Architecture**  
-  Windows is the initial release target, while engine components are being written with Linux and macOS compatibility in mind.
-
-### 💾 Physical Media Philosophy
-
-One of J-29's defining features is treating physical media as an **interface**, rather than merely a storage device.
-
-A floppy disk, SD card, USB drive, or other removable medium can represent software that actually lives somewhere else on the system.
-
-For example:
+A floppy disk, SD card, USB device, external drive, or other supported medium can represent software that actually lives somewhere else on the system.
 
 ```text
 INSERT PHYSICAL MEDIA
@@ -100,51 +82,114 @@ The physical object becomes the interaction.
 
 > **J-29 physical media represents software. It does not require the software to physically reside on that media.**
 
+With v0.29, J-29 can also **create that media from inside the interface**.
+
+Users select software from the existing library, choose a removable device, and J-29 generates the required metadata automatically.
+
+No manual game-ID lookup required.
+
 ---
 
-## 🚧 What's Next?
+## 🔊 Callisto Audio Identity
 
-With **v0.27 Physical Media Metadata & Collections** complete, development continues toward the remaining v1.0 experience.
+J-29 also includes a configurable semantic audio system.
 
-Planned work includes:
+The current Callisto reference sound set uses:
 
-- Custom audio and interface sounds
-- Settings Editor
-- First-run setup wizard
+- Dry mechanical key and relay clicks
+- Muted CRT-era electronic beeps
+- Low-fi industrial texture
+- Short functional acknowledgements
+- Restrained confirmations and errors
+- Minimal melody
+
+The goal is not to sound like a modern application with retro effects layered on top.
+
+The goal is to make the **machine itself feel alive**.
+
+---
+
+## 🚧 Road to v1.0
+
+The project is being built in small, stable milestones rather than through one giant rewrite.
+
+Current direction includes:
+
+- OLED / auxiliary display support
 - Maintenance environment
+- Appliance-style operation
+- Boot maintenance console
+- Packaged Windows deployment
+- First-run configuration
+- Guided Windows host integration
 - Additional interface customization
-- Alternate Shell support
-- Final integration and usability polish
-- Cross-platform regression testing
-- v1.0 release candidate
+- Final regression and usability polish
+- v1.0 release preparation
 
-The goal is not simply to build another launcher.
-
-The goal is to make modern game libraries feel like they belong to a dedicated computer again.
+> **Big vision. Small versions. Stable checkpoints. No chaos.**
 
 ---
 
 ## 🖥️ The Homelab Workshop
 
-When I am not working on J-29, I experiment with physical and virtual infrastructure:
+When I'm not working on J-29, I spend time experimenting with physical and virtual infrastructure.
 
-- **Active Directory Testing** — Building domain environments for Group Policy, networking, administration, and troubleshooting practice.
-- **SOC Simulations** — Running virtualized environments for defensive security testing, traffic analysis, and incident-response practice.
-- **Hardware Reclamation** — Giving retired enterprise hardware another life through servers, retro-computing projects, lab systems, and other experiments.
-- **Self-Hosted Services** — Maintaining home infrastructure including a dedicated Jellyfin media server.
+### Active Directory
+
+Building domain environments for:
+
+- Group Policy
+- DNS
+- Authentication
+- Networking
+- Administration
+- Troubleshooting
+
+### Defensive Security
+
+Running lab environments for:
+
+- Traffic analysis
+- Incident-response practice
+- System monitoring
+- Security testing
+- SOC-style simulations
+
+### Hardware Reclamation
+
+Giving retired enterprise hardware a second life through:
+
+- Servers
+- Retro-computing projects
+- Lab systems
+- Custom PCs
+- Experimental builds
+
+### Self-Hosted Infrastructure
+
+Building and maintaining services and systems inside my home lab.
 
 ---
 
 ## 🤝 Let's Build Something
 
-J-29 is being developed as an open-source project, and its modular architecture is intended to eventually make experimentation part of the fun.
+J-29 is open source under the **MIT License**, and the long-term goal is to make the platform something other builders can experiment with too.
 
-Want to build a custom shell?
+Interested in:
 
-Have an absurd idea involving a floppy disk and a modern Steam game?
+- Retro computing
+- Custom user interfaces
+- Emulation
+- Physical media
+- Fictional computer systems
+- Homelabs
+- Hardware reclamation
+- Defensive security
 
-Interested in retro computing, homelabs, hardware reclamation, or defensive security?
+Take a look around.
 
 Explore the repositories, open an issue, or follow along as J-29 works its way toward v1.0.
+
+---
 
 **Modern hardware. Retro experience.**

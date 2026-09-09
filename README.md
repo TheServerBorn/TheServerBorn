@@ -10,16 +10,62 @@ I hold the CompTIA **A+**, **Network+**, **Security+**, and **CySA+** certificat
 
 ---
 
-## 🕹️ Active Project: J-29 Interface Engine
+## 🕹️ Active Project: Veyllisto Interface Engine
 
 **Latest completed milestone:** `v0.31 — Maintenance Terminal`  
 **Next development milestone:** `v0.32 — Guided First-Launch Setup`
 
-[J-29 Interface Engine](https://github.com/TheServerBorn/J-29-Interface-Engine) is an open-source, Python-based retro-computing interface and game-launching engine built around one simple idea:
+[Veyllisto Interface Engine](https://github.com/TheServerBorn/Veyllisto-Interface-Engine) is an open-source, Python-based retro-computing interface and game-launching engine built around one simple idea:
 
 > **Modern hardware. Retro experience.**
 
-Recent completed systems now include the Physical Media Creator, optional auxiliary-display support, a cleaned main Settings hierarchy, three Callisto reference themes, and an authenticated Maintenance Terminal with diagnostics, configuration, controlled Desktop Mode, Advanced Terminal access, true J-29 restart, and protected host power actions.
+🌐 **Website:** [veyllisto.com](https://veyllisto.com/)  
+🖥️ **Live Demo:** [veyllisto.com/demo/](https://veyllisto.com/demo/)
+
+Veyllisto is built around a modular **Engine + Shell** architecture.
+
+The Engine owns shared systems such as the game library, Steam and emulator integration, metadata, favorites, recent history, physical media, configuration, and hardware integrations.
+
+Shells provide completely different ways to interact with those same systems.
+
+> **One Engine. Shared state. Multiple experiences.**
+
+### Veyllisto v1.0 Shell Suite
+
+Veyllisto v1.0 is planned to ship with four first-party interface shells:
+
+- 📟 **Terminal** — keyboard-first immersive retro terminal
+- 🖥️ **Classic Desktop** — late-1980s / early-1990s graphical desktop
+- 🎮 **Living Room** — controller-first television and couch-gaming interface
+- 🕹️ **Arcade** — cabinet-style game-first experience
+
+Each shell uses the same underlying Veyllisto Engine and shared library state.
+
+### Current Systems
+
+Recent completed systems include:
+
+- Unified Game Library
+- Steam integration
+- Emulator and ROM launching
+- Favorites and Recently Played
+- Physical-media detection
+- Metadata-only physical launch keys
+- Self-contained physical game media
+- Multi-game physical collections
+- Built-in Physical Media Creator
+- Safe removable-media writing and verification
+- OLED / auxiliary-display support
+- Configurable machine identity
+- Theme-owned custom audio
+- Callisto Green, Amber, and White reference themes
+- Authenticated Maintenance Terminal
+- System diagnostics
+- Controlled Desktop Mode
+- Advanced Terminal access
+- Process-level Veyllisto restart
+- Protected host reboot and shutdown actions
+- Context-aware Settings and Maintenance navigation
 
 ### Road to v1.0
 
@@ -32,18 +78,21 @@ Recent completed systems now include the Physical Media Creator, optional auxili
 | v0.33 | Appliance Mode | ⏳ Planned |
 | v0.34 | Boot Maintenance Console | ⏳ Planned |
 | v0.35 | Deployment Build | ⏳ Planned |
-| v0.36–v0.99 | Stabilization | ⏳ Planned |
+| v0.36 | Classic Desktop Shell | ⏳ Planned |
+| v0.37 | Living Room Shell | ⏳ Planned |
+| v0.38 | Arcade Shell | ⏳ Planned |
+| v0.39–v0.99 | Shell Integration, Polish & Stabilization | ⏳ Planned |
 | v1.0 | Initial Public Release | 🎯 Target |
 
 > **Big vision. Small versions. Stable checkpoints. No chaos.**
 
-See the full [Development Roadmap](https://github.com/TheServerBorn/J-29-Interface-Engine/blob/main/ROADMAP.md).
+See the full [Development Roadmap](https://github.com/TheServerBorn/Veyllisto-Interface-Engine/blob/main/ROADMAP.md).
 
 ---
 
 ## 🖥️ The Homelab Workshop
 
-When I'm not working on J-29, I spend time experimenting with physical and virtual infrastructure.
+When I'm not working on Veyllisto, I spend time experimenting with physical and virtual infrastructure.
 
 ### Active Directory
 
@@ -84,7 +133,7 @@ Building and maintaining services and systems inside my home lab.
 
 ## 🤝 Let's Build Something
 
-J-29 is open source under the **MIT License**, and the long-term goal is to make the platform something other builders can experiment with too.
+Veyllisto is open source under the **MIT License**, and the long-term goal is to make the platform something other builders can experiment with too.
 
 Interested in:
 
@@ -99,7 +148,7 @@ Interested in:
 
 Take a look around.
 
-Explore the repositories, open an issue, or follow along as J-29 works its way toward v1.0.
+Explore the repositories, try the live demo, open an issue, or follow along as Veyllisto works its way toward v1.0.
 
 ---
 

@@ -191,7 +191,7 @@ Interested in:
 
 Take a look around.
 
-Explore the repositories, try the live demo, open an issue, or follow along as Veyllisto works its way toward v1.0.
+Explore the repositories, try the live demo, open an issue, or follow along as Veyllisto and IT Support Simulator works its way toward v1.0.
 
 ---
 

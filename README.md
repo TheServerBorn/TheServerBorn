@@ -10,7 +10,50 @@ I hold the CompTIA **A+**, **Network+**, **Security+**, and **CySA+** certificat
 
 ---
 
-## 🕹️ Active Project: Veyllisto Interface Engine
+## 🛠️ Featured Project: IT Support Simulator
+
+**Latest public release:** `v0.4.1 — Solo & Multi-User Training`  
+**In development:** `v0.4.2 — Animated Instructor & Guided Onboarding`
+
+**[IT Support Simulator](https://github.com/TheServerBorn/It-Support-Simulator-Releases)** is an interactive IT help desk training application designed to bridge the gap between studying troubleshooting concepts and applying them in realistic scenarios.
+
+Instead of answering multiple-choice questions, trainees investigate, diagnose, repair, and document support tickets inside a simulated Windows 11 environment.
+
+> **Learn by doing. Troubleshoot with purpose.**
+
+### What It Offers
+
+- 🖥️ **Interactive Windows 11 Environment** — Practice using simulated operating-system tools, device management, and troubleshooting utilities.
+- 🎫 **60 Troubleshooting Scenarios** — Work through Beginner, Intermediate, and Advanced issues involving networking, printers, hardware, services, and applications.
+- 🧑‍💻 **Solo Training** — Practice offline with individual local profiles, saved progress, and assessments. No server required.
+- 🌐 **Multi-User Training** — Connect to a separately hosted training server for account-based progress, synchronization, and instructor supervision.
+- 📊 **Performance Tracking** — Evaluate troubleshooting skills, completion history, assessment scores, and competency progression.
+- 👨‍🏫 **Instructor Command Center** — Review authorized technician performance and manage organizational training.
+
+### Currently in Development
+
+**v0.4.2 — Animated Instructor & Guided Onboarding**
+
+An interactive character-based tutorial with recorded narration, guided navigation, and action-based progression.
+
+**Future roadmap:**
+- Dynamic, procedurally generated support tickets.
+- Interactive employee conversations through simulated service-desk replies.
+- Expanded hardware repair simulations and natural functional verification.
+
+*These upcoming features are not included in the current public release.*
+
+### Get Started
+
+**[⬇️ Download IT Support Simulator v0.4.1](https://github.com/TheServerBorn/It-Support-Simulator-Releases/releases/tag/v0.4.1)**
+
+**[📖 Public Releases & Documentation](https://github.com/TheServerBorn/It-Support-Simulator-Releases)**
+
+The Windows installer supports Solo Mode immediately. Multi-User Mode requires a separately provisioned training server; a standalone public server download is not currently available.
+
+---
+
+## 🕹️ Featured Project: Veyllisto Interface Engine
 
 **Latest completed milestone:** `v0.31 — Maintenance Terminal`  
 **Next development milestone:** `v0.32 — Guided First-Launch Setup`
